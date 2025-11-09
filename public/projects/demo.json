@@ -1,0 +1,17 @@
+{
+  "floors": [1, 2, 3],
+  "nodes": [
+    { "id": "lobby", "x": 140, "y": 220, "floor": 1, "type": "room", "label": "Lobby" },
+    { "id": "f1a",   "x": 260, "y": 220, "floor": 1, "type": "room", "label": "F1-A" },
+    { "id": "f2a",   "x": 260, "y": 220, "floor": 2, "type": "room", "label": "F2-A" },
+    { "id": "f3a",   "x": 260, "y": 220, "floor": 3, "type": "room", "label": "F3-A" },
+    { "id": "lift1", "x": 480, "y": 220, "floor": 1, "type": "lift",  "label": "Lift A" },
+    { "id": "lift2", "x": 480, "y": 220, "floor": 2, "type": "lift",  "label": "Lift A" },
+    { "id": "lift3", "x": 480, "y": 220, "floor": 3, "type": "lift",  "label": "Lift A" }
+  ],
+  "edges": [
+    ["lobby","f1a"],
+    ["f1a","lift1"], ["lift1","lift2"], ["lift2","lift3"],
+    ["lift2","f2a"], ["lift3","f3a"]
+  ]
+}

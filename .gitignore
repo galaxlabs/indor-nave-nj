@@ -1,0 +1,26 @@
+# Node / Next.js
+node_modules/
+types/
+static/
+server/
+logs/
+cache/
+.next/
+out/
+dist/
+.vercel/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.idea/
+.DS_Store
+
+# Expo / React Native (if you add later)
+.expo/
+android/
+ios/
+
+# Env / local
+.env
+.env.*
